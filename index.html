@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CV — Étudiant Génie Logiciel (Bac+2)</title>
+    <style>
+        :root{--accent:#1e88e5;--muted:#666;}
+        body{font-family:Segoe UI,Roboto,Arial;margin:0;background:#a5bfb8a9;color:#222}
+        .container{max-width:900px;margin:32px auto;background:#e5efe886;padding:28px;border-radius:8px;box-shadow:0 6px 20px rgba(20,30,50,.08)}
+        header{display:flex;align-items:center;gap:20px;border-bottom:1px solid #eee;padding-bottom:18px;margin-bottom:18px}
+        .photo{width:110px;height:110px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#6ec6ff);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+        h1{margin:0;font-size:22px}
+        .meta{font-size:14px;color:var(--muted)}
+        .cols{display:grid;grid-template-columns:1fr 320px;gap:22px}
+        section{margin-bottom:14px}
+        .card{background:#fbfdff;padding:14px;border-radius:6px;border:1px solid #f0f4fb}
+        ul{margin:8px 0 0 18px;padding:0}
+        .skill{display:flex;justify-content:space-between;font-size:14px;margin:6px 0}
+        .progress{height:8px;background:#e6eefc;border-radius:6px;overflow:hidden;margin-top:6px}
+        .bar{height:100%;background:var(--accent)}
+        footer{font-size:13px;color:var(--muted);text-align:center;margin-top:18px}
+        @media(max-width:800px){.cols{grid-template-columns:1fr;}.photo{display:none}}
+        a{color:var(--accent);text-decoration:none;font-size:14px}
+        a:hover{text-decoration:underline}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <div ><img src="télécharger (2).jpeg" alt=""></div>
+            </div>
+            <div>
+                <h1>BALAGIZI PANZU KETIA</h1>
+                <h3>matricule 2024021117</h3>
+                <div class="meta">Étudiant en Génie Logiciel — Bac+2</div>
+                <div class="meta">Université  de Lubumbashi/  Lubumbashi Republic of the Congo</div>
+                <div style="margin-top:8px;font-size:14px">
+                    <strong>Email:</strong> ketiapan0@gmail.com &nbsp; • &nbsp;
+                    <strong>Tél:</strong> +243 970 123 456 &nbsp; • &nbsp;
+                    <strong>LinkedIn:</strong> ketiapan0.com/in/ketiapan &nbsp; • &nbsp;
+                    <strong>GitHub:</strong> ketiapan0.com/ketiapan
+                </div>
+            </div>
+        </header>
+
+        <div class="cols">
+            <main>
+                <section class="card">
+                    <h3>Profil</h3>
+                    <p class="meta">Étudiant en deuxième année de Génie Logiciel passionné par le développement d'applications web et mobiles, les algorithmes et l'ingénierie logicielle. Bonnes bases en programmation, travail d'équipe et gestion de projets.</p>
+                </section>
+
+                <section class="card">
+                    <h3>Projets académiques & personnels</h3>
+                    <ul>
+                        <li><strong>Gestionnaire de tâches (React + Node.js)</strong> — Application web CRUD avec authentification (JWT), stockage MySQL. Mise en place CI simple.</li>
+                        <li><strong>Mini SGBD (C)</strong> — Implémentation d'un index B-tree simple et opérations basiques (insert/search).</li>
+                    </ul>
+                </section>
+
+                <section class="card">
+                    <h3>Expériences</h3>
+                    <ul>
+                        <li><strong>Étudiant développeur</strong> — Projet: participation au développement d'une application de Netoyages et detecteur de methadonne .</li>
+                        <li><strong>Projets associatifs</strong> — Membre d'une équipe projet : gestion de versions (Git), revues de code, déploiement basique.</li>
+                    </ul>
+                </section>
+
+                <section class="card">
+                    <h3>Formation</h3>
+                    <ul>
+                        <li><strong>Bac+2 Génie Logiciel</strong> — UPL/université protestante de lubumbashi </li>
+                        <li><strong>Baccalauréat Scientifique</strong> — Ufundi X (année 2024)</li>
+                    </ul>
+                </section>
+            </main>
+
+            <aside>
+                <section class="card">
+                    <h3>Compétences techniques</h3>
+                    <div class="skill"><span>Langages</span><span class="meta">Java, C, Python, JavaScript</span></div>
+                    <div class="skill"><span>Web</span><span class="meta">HTML, CSS, </span></div>
+                    <div class="skill"><span>Bases de données</span><span class="meta">MySQL, SQLite</span></div>
+                    <div class="skill"><span>Outils</span><span class="meta">Git, Docker (bases), VS Code,eclipse</span></div>
+                    <div style="margin-top:10px">
+                        <div style="font-size:13px;color:var(--muted)">Compétences (illustratif)</div>
+                        <div class="progress" aria-hidden="true"><div class="bar" style="width:75%"></div></div>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <h3>Langues</h3>
+                    <ul>
+                        <li>Français — Langue maternelle</li>
+                        <li>Anglais — Intermédiaire (technique)</li>
+                    </ul>
+                </section>
+
+                <section class="card">
+                    <h3>Centres d'intérêt</h3>
+                    <ul>
+                        <li>Open source, algorithmique, lecture technique</li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
+                    <p><a href="contact.php">Retour au CV</a></p>
+        <footer>
+            merci de votre attention ! 
+        </footer>
+    </div>
+</body>
+</html>
